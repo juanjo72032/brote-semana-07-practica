@@ -13,7 +13,7 @@
       "icon": "./assets/images/icon.png"
     },
     "android": {
-      "package": "edu.uets.brote.demo",
+      "package": "edu.uets.brote.galanjuan",
       "adaptiveIcon": {
         "backgroundColor": "#F6F0E5",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -46,7 +46,10 @@
       "reactCompiler": true
     },
     "extra": {
-      "router": {}
+      "router": {},
+      "eas": {
+        "projectId": "96ca605e-8c57-431a-ab5f-44ee1d42d775"
+      }
     }
   }
 }
